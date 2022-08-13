@@ -1,2 +1,2 @@
 # landing-page
-Landing page for Sabrina Miller.
+Landing page for Chili Peppers
