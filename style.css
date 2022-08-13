@@ -1,0 +1,195 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .header {
+      padding: 20px;
+      display: flex;
+      background: #3C0000;
+      justify-content: space-between;
+      color: white;
+          position: fixed;
+          width: 100%;
+  }
+  
+  a:link {
+    color: white;
+  }
+  a:visited {
+    color: lightgray;
+  }
+  
+  .header-links a {
+      justify-content: flex-end;
+      padding: 0px 10px;
+  }
+  .header-links {
+      padding: 0px 50px;
+  }
+  
+  .header-links a:hover {
+    background-color: #4F2222;
+  }
+  
+  .subsection-one {
+      display: flex;
+      background: #774936;
+      justify-content: center;
+      padding: 80px;
+      border: black;
+  }
+  
+  .one-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .text-side {
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  .image-side {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding: 20px;
+  }
+  
+  .image-side img {
+      height: 250px;
+      width: 350px;
+      flex: 1;
+      object-fit: cover;
+  }
+  
+  .main {
+      color: antiquewhite;
+      font-size: 40px;
+      padding-top: 40px;
+      padding-bottom: 25px;
+  }
+  
+  #main-subtext {
+      color: blanchedalmond;
+      width: 400px;
+      padding-bottom: 25px;
+  }
+  
+  .subsection-two {
+      padding: 80px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background: #D69F7E;
+  }
+  
+  .info-three {
+      font-size: 24px;
+      margin-bottom: 36px;
+  }
+  
+  .boxes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  
+  figure img {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      border-radius: 20px;
+  }
+  
+  figcaption {
+      width: 100px;
+      font-size: 12px;
+  }
+  
+  .subsection-three {
+    background: #F5D0C5;
+    display: flex;
+    padding: 40px 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .quote {
+    margin: 60px;
+    width: 650px;
+    text-align: justify;
+  }
+  
+  .quote-author {
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .subsection-four {
+    background: #D17008;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+  }
+  
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    flex-wrap: wrap;
+    width: 400px;
+    padding-right: 80px;
+    font-size: 20px;
+  }
+  
+  .action-box {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      background-color: #2F2222; 
+      border: 2px groove azure;
+      border-radius: 8px;
+  }
+  
+  .subsection-four button {
+    width: 140px;
+    height: 75px;
+    font-size: 24px;
+  }
+  
+  .subsection-one button {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  button {
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: 0px 0px 5px white;
+  }
+  button:hover {
+    background-color: #DDDDDD;
+  }
+  
+  footer {
+    color: blanchedalmond;
+    background: #3C0000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(100,0,0);
+  }
