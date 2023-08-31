@@ -35,7 +35,7 @@ html, body {
   
   .subsection-one {
       display: flex;
-      background: #774936;
+      background: #c47959;
       justify-content: center;
       padding: 80px;
       border: black;
@@ -117,7 +117,7 @@ html, body {
   }
   
   .subsection-three {
-    background: #F5D0C5;
+    background: #f0ba7c;
     display: flex;
     padding: 40px 300px;
     justify-content: center;
@@ -138,7 +138,7 @@ html, body {
   }
   
   .subsection-four {
-    background: #D17008;
+    background: #e08e35;
     display: flex;
     justify-content: center;
     align-items: center;
